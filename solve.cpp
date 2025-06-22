@@ -25,7 +25,7 @@ using namespace std;
 // int inverse(int x) { return binpow(x, MOD - 2);}
 
 /* ---------- basic computation ---------- */
-// int ceil2(int a, int b) { return a ? ( (a - 1) / b + 1 ) : 0; }
+// long long ceil2(long long a, long long b) { return a ? (a + b - 1) / b : 0; }
 
 // *INDENT-ON*
 // clang-format on
