@@ -19,7 +19,7 @@ using namespace std;
 // int binpow(int a, int b) { if (b == 0) { return 1; } if (b & 1) { return (1LL * a * binpow(a, b - 1)) % MOD; } else { return binpow((1LL * a * a) % MOD, b / 2) % MOD; }}
 
 /* ---------- binpow without MOD ---------- */
-// long long binpow(long long a, long long b) { if (b == 0) { return 1; } if (b & 1) { return (a * binpow(a, b - 1)); } else { return binpow((a * a), b / 2); }}
+// long long binpow(long long a, long long b) { if (b == 0) { return 1; } if (b & 1LL) { return (a * binpow(a, b - 1)); } else { return binpow((a * a), b / 2); }}
 
 /* ---------- modular multiplicative inverse ---------- */
 // int inverse(int x) { return binpow(x, MOD - 2);}
