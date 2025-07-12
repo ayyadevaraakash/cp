@@ -9,10 +9,11 @@ signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
 
-    // clang-format off
-    // int _t; cin >> _t; while (_t--)
-    solve();
-    // clang-format on
+    int testcases = 1;
+    // cin >> testcases;
+    while (testcases--) {
+        solve();
+    }
 
     return 0;
 }
