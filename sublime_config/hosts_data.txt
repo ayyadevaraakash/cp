@@ -1,0 +1,7 @@
+------ add this line in hosts file ------
+
+# For Disabling Sublime Text Updates
+127.0.0.1 www.sublimetext.com
+
+Location of hosts file
+c:/windows/system32/drivers/etc/hosts
