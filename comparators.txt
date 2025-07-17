@@ -1,0 +1,15 @@
+----------vectors----------
+
+sort(vec.begin(), vec.end(), [](pp & p1, pp & p2) {
+	return p1.first < p2.first;
+});
+
+----------priority_queue----------
+
+struct prioritize {
+	bool operator() (pp& p1, pp& p2) {
+		return p1.second > p2.second;
+	}
+};
+
+priority_queue<pp,vector<pp>,prioritize> pq;
